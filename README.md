@@ -1,4 +1,6 @@
-### Hi there 👋
+### Welcome to my profile 👋
+I'm Cuzeth. I can code in a few languages, like JS, TS, Swift/SwiftUI, and C++.
+You can visit my website [here](https://cuzeth.com/).
 
 <!--
 **Cuzeth/Cuzeth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
