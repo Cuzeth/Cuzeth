@@ -1,4 +1,4 @@
-### Hello there! 👋
+### Hey! 👋
 I'm Cuzeth. I can code in a few languages/frameworks, like JavaScript/TypeScript, MongoDB, React, Swift/SwiftUI, and C++.
 You can visit my website [here](https://cuzeth.com/).
 
