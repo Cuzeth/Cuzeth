@@ -6,7 +6,7 @@ I have a passion for technology, programming, and self teaching. I am actively e
 You can visit my website [here](https://cuzeth.com/).
 
 
-![Cuzeth's GitHub stats](https://github-readme-stats.vercel.app/api?username=cuzeth&theme=radical&count_private=true)
+<!-- ![Cuzeth's GitHub stats](https://github-readme-stats.vercel.app/api?username=cuzeth&theme=radical&count_private=true) -->
 
 <!--
 **Cuzeth/Cuzeth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
