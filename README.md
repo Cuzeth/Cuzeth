@@ -1,6 +1,5 @@
-### Hey! 👋
-I'm Cuzeth, a 21 year old developer majoring in Computer Science. 
-
-I have a passion for technology, programming, and self teaching. I am actively expanding my expertise with these coding languages and frameworks with the projects I continue to pursue: JavaScript/TypeScript, MongoDB, React, Swift/SwiftUI, and C++.
+### Hey!
+I'm Cuzeth.
+I architect modern digital solutions with a focus on performance and privacy. As a 21-year-old Computer Science (Cybersecurity) major, I blend academic rigor with practical application. Whether building full-stack applications or exploring new frameworks, I am driven by a passion for efficient code and exceptional user experiences.
 
 You can visit my website [here](https://cuzeth.com/).
