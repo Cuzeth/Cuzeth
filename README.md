@@ -1,5 +1,11 @@
-### Hey!
-I'm Cuzeth.
-I architect modern digital solutions with a focus on performance and privacy. As a 21-year-old Computer Science (Cybersecurity) major, I blend academic rigor with practical application. Whether building full-stack applications or exploring new frameworks, I am driven by a passion for efficient code and exceptional user experiences.
+<p align="center">
+  <a href="https://cuzeth.com">
+    <img src="./header.svg" alt="Cuzeth — I build fast, private, well-crafted software." width="100%" />
+  </a>
+</p>
 
-You can visit my website [here](https://cuzeth.com/).
+CS (Cybersecurity) student and builder. I ship tools that respect users — offline-first, fast, and without unnecessary complexity.
+
+### Elsewhere
+
+[cuzeth.com](https://cuzeth.com) · [GitLab](https://gitlab.com/Cuzeth) · [YouTube](https://www.youtube.com/channel/UCYVD0wcSlHFlCs41kHTap2Q) · [Twitch](https://twitch.tv/TheRealCuzeth) · [Buy Me a Coffee](https://buymeacoffee.com/cuzeth)
