@@ -1,0 +1,103 @@
+<svg viewBox="0 0 840 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cuzeth — I build fast, private, well-crafted software.">
+  <title>Cuzeth — I build fast, private, well-crafted software.</title>
+  <style>
+    .mono {
+      font-family: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .eyebrow  { font-size: 15px; fill: #837E73; }
+    .display  { font-size: 42px; font-weight: 600; fill: #E9E6DF; }
+    .footer   { font-size: 13px; fill: #6E6A61; }
+    .site     { font-size: 13px; fill: #A39E92; }
+    .bar      { fill: #FFB454; }
+    .cursor   { fill: #FFB454; }
+
+    /* Defaults below are the FINAL state, so the banner still reads
+       correctly if animations are unsupported or reduced. */
+
+    .eyebrow {
+      clip-path: inset(-10% -2% -30% 0%);
+      animation: type 1.1s steps(30, end) 0.2s backwards;
+    }
+    @keyframes type {
+      from { clip-path: inset(-10% 100% -30% 0%); }
+      to   { clip-path: inset(-10% -2% -30% 0%); }
+    }
+
+    .rise { animation: rise 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) backwards; }
+    .w1 { animation-delay: 1.35s; }
+    .w3 { animation-delay: 1.60s; }
+    .w4 { animation-delay: 1.80s; }
+    .w5 { animation-delay: 1.95s; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* "fast" earns its name: no easing runway, it just arrives. */
+    .snap { animation: snap 0.14s cubic-bezier(0.9, 0, 0.1, 1) 1.52s backwards; }
+    @keyframes snap {
+      from { opacity: 0; transform: translateX(-16px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    /* "private" starts redacted, then declassifies. */
+    .bar {
+      transform-box: fill-box;
+      transform-origin: right center;
+      opacity: 0;
+      transform: scaleX(0);
+      animation: unredact 0.55s cubic-bezier(0.75, 0, 0.2, 1) 2.5s backwards;
+    }
+    @keyframes unredact {
+      0%   { opacity: 1; transform: scaleX(1); }
+      88%  { opacity: 1; }
+      100% { opacity: 0; transform: scaleX(0); }
+    }
+
+    .cursorGroup { animation: appear 0.01s 2.6s backwards; }
+    @keyframes appear {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    .cursor { animation: blink 1.2s step-end 2.6s infinite; }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0; }
+    }
+
+    .late { animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) 2.25s backwards; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .eyebrow, .rise, .snap, .bar, .cursorGroup, .cursor, .late {
+        animation: none;
+      }
+    }
+  </style>
+
+  <!-- Card -->
+  <rect x="0.5" y="0.5" width="839" height="249" rx="12" fill="#080808" stroke="#1F1F22"/>
+
+  <!-- Eyebrow -->
+  <text class="mono eyebrow" x="48" y="66" textLength="270" lengthAdjust="spacingAndGlyphs">// software engineer &amp; builder</text>
+
+  <!-- Display line 1: I build fast, private, -->
+  <text class="mono display rise w1" x="48"    y="126" textLength="176.4" lengthAdjust="spacingAndGlyphs">I build</text>
+  <text class="mono display snap"    x="249.6" y="126" textLength="126"   lengthAdjust="spacingAndGlyphs">fast,</text>
+  <text class="mono display rise w3" x="400.8" y="126" textLength="201.6" lengthAdjust="spacingAndGlyphs">private,</text>
+
+  <!-- Redaction bar over "private" -->
+  <rect class="bar" x="397" y="93" width="184" height="44" rx="3"/>
+
+  <!-- Display line 2: well-crafted software. -->
+  <text class="mono display rise w4" x="48"    y="180" textLength="302.4" lengthAdjust="spacingAndGlyphs">well-crafted</text>
+  <text class="mono display rise w5" x="375.6" y="180" textLength="226.8" lengthAdjust="spacingAndGlyphs">software.</text>
+
+  <!-- Block cursor -->
+  <g class="cursorGroup">
+    <rect class="cursor" x="614" y="148" width="16" height="36"/>
+  </g>
+
+  <!-- Footer row -->
+  <text class="mono footer late" x="48" y="222">swiftui · next.js · node · postgres — offline-first by default</text>
+  <text class="mono site late" x="792" y="222" text-anchor="end">cuzeth.com</text>
+</svg>
