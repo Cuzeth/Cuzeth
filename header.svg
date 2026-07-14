@@ -8,8 +8,8 @@
     .display  { font-size: 42px; font-weight: 600; fill: #E9E6DF; }
     .footer   { font-size: 13px; fill: #6E6A61; }
     .site     { font-size: 13px; fill: #A39E92; }
-    .bar      { fill: #FFB454; }
-    .cursor   { fill: #FFB454; }
+    .bar      { fill: #FF5454; }
+    .cursor   { fill: #FF5454; }
 
     /* Defaults below are the FINAL state, so the banner still reads
        correctly if animations are unsupported or reduced. */
