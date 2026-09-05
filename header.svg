@@ -1,15 +1,14 @@
-<svg viewBox="0 0 840 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cuzeth — I build fast, private, well-crafted software.">
-  <title>Cuzeth — I build fast, private, well-crafted software.</title>
+<svg viewBox="0 0 840 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ABD33N — I build fast, private, well-crafted software.">
+  <title>ABD33N — I build fast, private, well-crafted software.</title>
   <style>
     .mono {
       font-family: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
     }
-    .eyebrow  { font-size: 15px; fill: #837E73; }
-    .display  { font-size: 42px; font-weight: 600; fill: #E9E6DF; }
-    .footer   { font-size: 13px; fill: #6E6A61; }
-    .site     { font-size: 13px; fill: #A39E92; }
-    .bar      { fill: #FF5454; }
-    .cursor   { fill: #FF5454; }
+    .eyebrow  { font-size: 15px; fill: #939FBD; }
+    .display  { font-size: 42px; font-weight: 600; fill: #F3F7FF; }
+    .site     { font-size: 13px; fill: #939FBD; }
+    .bar      { fill: #FE002A; }
+    .cursor   { fill: #FE002A; }
 
     /* Defaults below are the FINAL state, so the banner still reads
        correctly if animations are unsupported or reduced. */
@@ -75,10 +74,10 @@
   </style>
 
   <!-- Card -->
-  <rect x="0.5" y="0.5" width="839" height="249" rx="12" fill="#080808" stroke="#1F1F22"/>
+  <rect x="0.5" y="0.5" width="839" height="249" rx="12" fill="#0A0F1C" stroke="#313C5A"/>
 
   <!-- Eyebrow -->
-  <text class="mono eyebrow" x="48" y="66" textLength="270" lengthAdjust="spacingAndGlyphs">// software engineer &amp; builder</text>
+  <text class="mono eyebrow" x="48" y="66" textLength="351" lengthAdjust="spacingAndGlyphs">// ABD33N · software engineer &amp; builder</text>
 
   <!-- Display line 1: I build fast, private, -->
   <text class="mono display rise w1" x="48"    y="126" textLength="176.4" lengthAdjust="spacingAndGlyphs">I build</text>
@@ -97,7 +96,6 @@
     <rect class="cursor" x="614" y="148" width="16" height="36"/>
   </g>
 
-  <!-- Footer row -->
-  <text class="mono footer late" x="48" y="222">swiftui · next.js · node · postgres — offline-first by default</text>
-  <text class="mono site late" x="792" y="222" text-anchor="end">cuzeth.com</text>
+  <!-- Site link -->
+  <text class="mono site late" x="792" y="222" text-anchor="end">abdeen.dev</text>
 </svg>
