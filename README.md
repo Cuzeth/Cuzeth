@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://abdeen.dev">
-    <img src="./header.svg" alt="ABD33N — I build fast, private, well-crafted software." width="100%" />
+    <img src="./header.svg" alt="CUZETH — I build fast, private, well-crafted software." width="100%" />
   </a>
 </p>
 
-I'm ABD33N, a CS (Cybersecurity) student and builder. I make tools that collect as little as possible and make it clear what stays on your device and what leaves it.
+I'm a CS (Cybersecurity) student and builder. I make tools that collect as little as possible and make it clear what stays on your device and what leaves it.
 
 ### Elsewhere
 
