@@ -1,5 +1,5 @@
-<svg viewBox="0 0 840 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ABD33N — I build fast, private, well-crafted software.">
-  <title>ABD33N — I build fast, private, well-crafted software.</title>
+<svg viewBox="0 0 840 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CUZETH — I build fast, private, well-crafted software.">
+  <title>CUZETH — I build fast, private, well-crafted software.</title>
   <style>
     .mono {
       font-family: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
@@ -77,7 +77,7 @@
   <rect x="0.5" y="0.5" width="839" height="249" rx="12" fill="#0A0F1C" stroke="#313C5A"/>
 
   <!-- Eyebrow -->
-  <text class="mono eyebrow" x="48" y="66" textLength="351" lengthAdjust="spacingAndGlyphs">// ABD33N · software engineer &amp; builder</text>
+  <text class="mono eyebrow" x="48" y="66" textLength="351" lengthAdjust="spacingAndGlyphs">// CUZETH · software engineer &amp; builder</text>
 
   <!-- Display line 1: I build fast, private, -->
   <text class="mono display rise w1" x="48"    y="126" textLength="176.4" lengthAdjust="spacingAndGlyphs">I build</text>
